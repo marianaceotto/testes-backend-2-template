@@ -1,4 +1,4 @@
--- Active: 1677350271081@@127.0.0.1@3306
+-- Active: 1677779478072@@127.0.0.1@3306
 
 CREATE TABLE users (
     id TEXT PRIMARY KEY UNIQUE NOT NULL,
@@ -19,3 +19,6 @@ VALUES
 	
 -- password = astrodev99
     ("u003", "Astrodev", "astrodev@email.com", "$2a$12$C.Uu/8ikb.1gBaG.AN8q6OL2/Tyc1yp67IWFELO8IIhflV6TNum/K", "ADMIN");
+
+
+DROP TABLE users;
